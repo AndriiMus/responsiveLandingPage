@@ -30,14 +30,19 @@
         box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
         border: none;
         color: $color-text-white;
+        text-transform: uppercase;
     }
 
     &__illustration {
-        margin: 80px 21px 0 20px;
+        position: relative;
+        top: 62px;
+        z-index: 1;
+        margin: 18px 21px 0 20px;
     }
 }
 
 .advertising {
+    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
