@@ -52,6 +52,23 @@
   margin: 80px 21px 0 20px;
 }
 
+.advertising {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 640px;
+  height: 180px;
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/PleaseVisitDesktopSiteSectionBackground.png);
+}
+.advertising__text {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 * {
   box-sizing: border-box;
 }
