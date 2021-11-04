@@ -1,0 +1,38 @@
+.headline {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__title {
+        margin: 0 80px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 1px;
+    }
+
+    &__discrotpion {
+        font-size: 20px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        margin: 0 80px;
+        margin-top: 20px;
+    }
+
+    &__upload-btn {
+        margin-top: 40px;
+        margin-left: 80px;
+        width: 300px;
+        height: 50px;
+        background: #1968fc;
+        box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+        border: none;
+        color: $color-text-white;
+    }
+
+    &__illustration{
+        margin: 80px 21px 0 20px;
+    }
+}

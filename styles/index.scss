@@ -1,0 +1,28 @@
+@import "varirabels.scss";
+@import "heder.scss";
+@import "hedline.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Mulish", sans-serif;
+    color: $color-text-black;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100%;
+    overflow-x: hidden;
+    background: linear-gradient(
+        180deg,
+        rgba(25, 104, 252, 0.0001) 0%,
+        rgba(25, 104, 252, 0.05) 23.07%,
+        rgba(25, 104, 252, 0.0001) 99.94%,
+        rgba(25, 104, 252, 0.05) 100%
+    );
+}
